@@ -6,34 +6,34 @@ Write-Host "=== Creating your starting dev environment ==="
 Write-Host "====> Installing Choco packages..."
 choco --version
 choco feature enable -name=exitOnRebootDetected
-choco install ChocolateyGUI -y
+choco upgrade ChocolateyGUI -y
 
 # windows subsystem for linux
 Write-Host "====> Installing windows subsystem for linux..."
 #choco list --source windowsfeatures
-choco install VirtualMachinePlatform -y -source windowsfeatures
-choco install Microsoft-Windows-Subsystem-Linux -y -source windowsfeatures
-choco install wsl2 -y
+choco upgrade VirtualMachinePlatform -y -source windowsfeatures
+choco upgrade Microsoft-Windows-Subsystem-Linux -y -source windowsfeatures
+choco upgrade wsl2 -y
 #Consider what version of ubuntu to install
 #I was not happy with the options for ubuntu. Will install manually or come back to this automation.
 
 # core components
 Write-Host "====> Installing core components..."
-choco install correttojdk -y
-choco install python3 -y
-choco install 7zip -y
-choco install git -y
-choco install winmerge -y
-choco install curl -y
-choco install wget -y
-choco install nodejs-lts -y
-choco install docker-cli -y
-choco install kubernetes-cli -y
-choco install docker-desktop -y
-choco install openssl -y
-choco install putty -y
-choco install jq -y
-choco install dotnetcore-sdk -y
+choco upgrade correttojdk -y
+choco upgrade python3 -y
+choco upgrade 7zip -y
+choco upgrade git -y
+choco upgrade winmerge -y
+choco upgrade curl -y
+choco upgrade wget -y
+choco upgrade nodejs-lts -y
+choco upgrade docker-cli -y
+choco upgrade kubernetes-cli -y
+choco upgrade docker-desktop -y
+choco upgrade openssl -y
+choco upgrade putty -y
+choco upgrade jq -y
+choco upgrade dotnetcore-sdk -y
 
 # text editors
 Write-Host "====> Installing text editors..."
