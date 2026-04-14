@@ -57,4 +57,4 @@ choco install epicgameslauncher -y
 Write-Host "====> Installing additional software..."
 choco install discord -y
 choco upgrade vlc -y
-Write-Host "=== Your development environment is ready to use! Enjoy! ==="
+Write-Host "=== Your environment is ready to use! Enjoy! ==="
