@@ -12,5 +12,9 @@ If it is not **Unrestricted** or **Bypass**, you should run that command:
     Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope LocalMachine
     
 Now, you're ready to execute the installation script (**PowerShell as Administrator**).
+General setup
     
     .\setup_environment.ps1
+
+Dev tools
+    .\setup_dev_environment.ps1
