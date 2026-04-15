@@ -25,6 +25,8 @@ choco upgrade winmerge -y
 Write-Host "====> Installing text editors..."
 choco upgrade notepadplusplus -y
 
+choco upgrade libreoffice-fresh -y
+
 # browsers
 Write-Host "====> Installing web browsers..."
 choco upgrade firefox -y
