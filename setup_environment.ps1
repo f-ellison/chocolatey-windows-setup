@@ -35,4 +35,4 @@ Write-Host "====> Installing Game platforms..."
 choco upgrade steam -y
 choco upgrade epicgameslauncher -y
 
-Write-Host "=== Your environment is ready to use! Enjoy! ==="
+Write-Host "=== Your environment is ready to use. ==="

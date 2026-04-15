@@ -47,4 +47,4 @@ choco upgrade GoogleChrome -y
 # ides
 Write-Host "====> Installing IDEs..."
 choco upgrade vscode -y
-Write-Host "====> Starting dev setup..."
+Write-Host "====> Finished dev setup..."
